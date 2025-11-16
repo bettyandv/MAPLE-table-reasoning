@@ -8,7 +8,7 @@ This repository contains the official implementation of [**MAPLE**](https://arxi
 ## 🔍 MAPLE Framework Overview
 
 <p align="center">
-  <img src="images/overview.png" alt="Overview Illustration" width="500">
+  <img src="images/overview.png" alt="Overview Illustration" width="650">
 </p>
 
 MAPLE mimics human-style problem solving by decomposing the reasoning process into **four cooperating agents**:
