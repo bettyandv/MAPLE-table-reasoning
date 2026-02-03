@@ -4,23 +4,6 @@
 export PYTHONPATH=$(pwd)/src:$PYTHONPATH
 # export NCCL_IGNORE_DISABLED_P2P=1
 
-# Generate Result on wikiTQ dataset for test set
-# Run the Python script
-# This will get ./results/wiki_result.json
-# python ./run.py --output_file "./results/wiki_result.json" \
-#                 --use_local_model=True \
-# python ./run.py --output_file "./results/wiki_result.json" \
-#                 --input_file "./data/WikiTableQuestions/data/pristine-unseen-tables.tsv" \
-#                 --llm_in_use "meta-llama/Meta-Llama-3.1-70B-Instruct" \
-#                 --LLM_URL "http://node14:9876/v1" \
-#                 --LLM_API_KEY "betty"
-
-# python ./run.py --output_file "./results/wiki_result.json" \
-#                 --input_file "./data/WikiTableQuestions/data/pristine-unseen-tables.tsv" \
-#                 --llm_in_use "meta-llama/Llama-3.2-1B-Instruct" --use_local_model
-
-# echo "Done!"
-
 # model="meta-llama/Llama-3.3-70B-Instruct"
 model="Qwen/Qwen2.5-72B-Instruct"
 # model="meta-llama/Llama-3.1-8B-Instruct"
